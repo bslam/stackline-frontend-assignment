@@ -5,7 +5,7 @@ import Graph from './components/graph/Graph';
 import Product from './components/product/Product';
 import Table from './components/table/Table';
 import data from './components/assets/data.json'
-import { IConsumerGood } from './components/product/Product';
+import { IConsumerGood } from './service/api';
 import SortableTable from './components/table/TestTable';
 import tableData from './components/table/sampleData.json';
 

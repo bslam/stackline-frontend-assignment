@@ -19,7 +19,6 @@
 
 .information-container {
   display: flex;
-  background-color: yellow;
   flex-direction: column;
   justify-content: space-between;
 }
