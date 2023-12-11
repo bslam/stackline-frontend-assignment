@@ -2,7 +2,6 @@
   background-color: whitesmoke;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   text-align: center;
   width: 100%;
   height: auto;
@@ -18,12 +17,17 @@
   margin-left: 20px;
 }
 
+.information-container {
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .graph-container {
   
   padding: 90px 90px 90px 90px;
   background-color: white;
-  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1);
-
 }
 
 .graph-title {
@@ -35,4 +39,9 @@
   font-size: x-large;
   color: gray;
   font-weight: 500;
+}
+
+.table-container {
+  padding: 90px 90px 90px 90px;
+  background-color: white;
 }

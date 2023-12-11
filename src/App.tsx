@@ -6,6 +6,8 @@ import Product from './components/product/Product';
 import Table from './components/table/Table';
 import data from './components/assets/data.json'
 import { IConsumerGood } from './components/product/Product';
+import SortableTable from './components/table/TestTable';
+import tableData from './components/table/sampleData.json';
 
 
 
@@ -23,15 +25,23 @@ function App() {
         <Product
           consumerGood={consumerItem}
         />
-        <div>
+        <div className="information-container">
           <div className='graph-container'>
             <span className='graph-title'>Retail Sales</span>
             <Graph
               inputData={data[0].sales}
             />
           </div>
+           <div className='table-container'>
+            <Table
+              data={data[0].sales}
+            />
+           </div>
           
-          <Table/>
+          
+          {/*
+          <SortableTable data={tableData}/> 
+          */}
         </div>
       </div>
     </div>

@@ -1,26 +1,19 @@
 import React from 'react';
 import './Graph.css';
 import { LineChart, Line, XAxis } from 'recharts';
+import { IWeeklySales } from '../../service/api';
 
 
 
-export interface ISale {
-  weekEnding: string;
-  retailSales: number;
-  wholesaleSales: number;
-  unitsSold: number;
-  retailerMargin: number;
-}
 
 interface IGraphProps {
-  inputData?: ISale[];
+  inputData?: IWeeklySales[];
 }
 
 
 export const Graph = (chartData: IGraphProps) => {
 
   const { inputData } = chartData;
-  console.log(inputData);
 
   
   return (

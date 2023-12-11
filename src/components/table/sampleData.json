@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "first_name": "Brian",
+    "last_name": "Lam",
+    "email": "brian.sun.lam@gmail.com",
+    "gender": "Female",
+    "ip_address": "51.189.247.168"
+  },
+    {
+      "id": 1,
+      "first_name": "Marrilee",
+      "last_name": "Le Clercq",
+      "email": "mleclercq0@wunderground.com",
+      "gender": "Female",
+      "ip_address": "51.189.247.168"
+    },
+    {
+      "id": 2,
+      "first_name": "Nancey",
+      "last_name": "Garioch",
+      "email": "ngarioch1@adobe.com",
+      "gender": "Non-binary",
+      "ip_address": "106.123.76.196"
+    },
+    {
+        "id": 998,
+        "first_name": "Reade",
+        "last_name": "Dowzell",
+        "email": "rdowzellrp@paypal.com",
+        "gender": "Female",
+        "ip_address": "67.125.247.114"
+      },
+      {
+        "id": 999,
+        "first_name": "Ernest",
+        "last_name": "Hawkett",
+        "email": "ehawkettrq@spotify.com",
+        "gender": "Male",
+        "ip_address": "37.157.83.210"
+      },
+      {
+        "id": 1000,
+        "first_name": "Rennie",
+        "last_name": "Kubica",
+        "email": "rkubicarr@ed.gov",
+        "gender": "Polygender",
+        "ip_address": "26.154.208.168"
+      }
+    ]
